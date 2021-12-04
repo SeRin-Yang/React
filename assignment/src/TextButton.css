@@ -1,4 +1,5 @@
 .TextB{
+    min-width: 5em;
     border: none;
     background-color: inherit;
     padding: 0.5em 0.5em;

@@ -5,8 +5,7 @@ class TextButton extends Component
 {
   render(){
     return(
-      <button class="TextB" onClick={()=> window.open("https://coolors.co/palettes/trending", "_blank")}> Find the best color combination!
-      </button>
+      <button class="TextB" onClick={this.props.func}> {this.props.name} </button>
     )
   }
 }

@@ -8,7 +8,7 @@
 }
 
 .Icon {
-  height: 10vmin;
+  min-width: 5em;
   pointer-events: none;
 }
   

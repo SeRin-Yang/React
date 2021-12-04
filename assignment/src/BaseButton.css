@@ -1,4 +1,5 @@
 .BaseB {
+    min-width: 5em;
     border: none;
     background-color: #f8ad9d;
     color : #f8edeb;
