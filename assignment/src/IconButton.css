@@ -1,0 +1,17 @@
+.IconB {
+  border: none;
+  background-color: #fae1dd;
+  padding: 0.5em 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  margin : 0.5em
+}
+
+.Icon {
+  height: 10vmin;
+  pointer-events: none;
+}
+  
+.IconB:hover{
+  background-color: #f9dcc4;
+}
