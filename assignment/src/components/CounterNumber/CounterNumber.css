@@ -1,0 +1,10 @@
+.text {
+    width:100%;
+    border: none;
+    background-color: #f8edeb;
+    color : #f8ad9d;
+    padding: 8px 8px;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-block;
+}

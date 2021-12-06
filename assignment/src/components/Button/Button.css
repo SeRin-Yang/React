@@ -1,0 +1,31 @@
+.btn{
+  min-width: 80px;
+  border: none;
+  color: #800f2f;
+  padding: 8px 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 8px;
+}
+
+.baseB {
+  background-color: #f8edeb;
+  font-size: 1em;
+}
+
+.baseB:hover{
+  background-color: #f08080;
+}
+
+.textB{
+  background-color: inherit;
+}
+
+.textB:hover {
+  background-color: #f79a9a;
+}
+
+.icon {
+  min-width: 5em;
+  pointer-events: none;
+}
