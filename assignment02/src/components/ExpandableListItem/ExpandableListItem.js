@@ -1,6 +1,6 @@
 import './ExpandableListItem.css';
 
-function ExpandableListItem() {
+function ExpandableListItem({index, clickEvent, title}) {
   return (
     <button type='button' className='buttonWrapper' onClick={clickEvent}>
       <span className='index'>

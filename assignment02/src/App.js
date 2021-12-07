@@ -1,5 +1,5 @@
 import './App.css';
-import ExpandableListItem from './Components/ExpandableListItem';
+import ExpandableListItem from './components/ExpandableListItem/ExpandableListItem';
 
 
 function App() {
