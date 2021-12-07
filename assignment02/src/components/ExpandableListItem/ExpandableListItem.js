@@ -2,14 +2,17 @@ import './ExpandableListItem.css';
 
 function ExpandableListItem({index, clickEvent, title}) {
   return (
-    <button type='button' className='buttonWrapper' onClick={clickEvent}>
-      <span className='index'>
+    <div className='itemWrapper'>
+      <div className='index'>
         {index}
-      </span>
-      <span className='title'>
-        {title}
-      </span>
-    </button>
+      </div>
+      <div className='titleAndMore'>
+        <div>
+          {title}
+        </div>
+        <button className='hide' type='button' onClick={clickEvent}> more </button>
+      </div>
+    </div>
   );
 }
 

@@ -1,22 +1,38 @@
-.buttonWrapper {
+.itemWrapper {
   width: 100%;
   height: 50px;
-  display: flex;
-  align-items: center;
-  background-color: white;
   font-size: 1em;
-  border-color: white;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid grey;
 }
 
-.buttonWrapper:hover{
-  height: 70px;
-  border-bottom-color: grey;
-}
-
-.index{
+.index {
   width: 10%;
+  text-align: center;
 }
 
-.title{
+.titleAndMore {
   width: 90%;
+}
+
+.hide {
+  min-width: 25px;
+  height: 20px;
+  padding: 4px 4px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  display: none;
+  background-color: inherit;
+  text-decoration: underline;
+}
+
+.itemWrapper:hover .hide {
+  display: inline-block;
+}
+
+.itemWrapper:hover{
+  height: 70px;
 }
