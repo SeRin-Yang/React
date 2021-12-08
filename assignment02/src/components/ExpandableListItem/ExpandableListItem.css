@@ -3,30 +3,23 @@
   height: 50px;
   font-size: 1em;
   align-items: center;
-  display: flex;
   background-color: white;
   border-bottom: 1px solid grey;
 }
 
-.index {
-  width: 10%;
-  text-align: center;
-}
-
-.titleAndMore {
-  width: 90%;
-}
-
-.hide {
+.more {
   min-width: 25px;
   height: 20px;
   padding: 4px 4px;
   color: black;
   cursor: pointer;
   border: none;
-  display: none;
   background-color: inherit;
   text-decoration: underline;
+}
+
+.hide {
+  display: none;
 }
 
 .itemWrapper:hover .hide {
@@ -34,5 +27,5 @@
 }
 
 .itemWrapper:hover{
-  height: 70px;
+  height: 75px;
 }

@@ -3,16 +3,14 @@ import ExpandableListItem from './components/ExpandableListItem/ExpandableListIt
 
 
 function App() {
-  const alertA = () => {
-    alert("Sind Sie auf der Suche nach einem Job?")
-  };
+  const url = "https://ko.reactjs.org/";
 
   return (
-    <>
-      <ExpandableListItem index='1' title='Mitarbeiter/in für das IT Center-Projektbüro' clickEvent={alertA}/>
-      <ExpandableListItem index='2' title='Technische(r) Bauzeichner/-in' clickEvent={alertA}/>
-      <ExpandableListItem index='3' title='Studentische Hilfskraft' clickEvent={alertA}/>
-    </>
+    <ol>
+      <ExpandableListItem title='Mitarbeiter/in für das IT Center-Projektbüro' url={url}/>
+      <ExpandableListItem title='Technische(r) Bauzeichner/-in' url={url}/>
+      <ExpandableListItem title='Studentische Hilfskraft' url={url}/>
+    </ol>
   );
 }
 
