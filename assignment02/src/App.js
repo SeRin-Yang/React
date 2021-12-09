@@ -7,9 +7,9 @@ function App() {
 
   return (
     <ol>
-      <ExpandableListItem title='Mitarbeiter/in für das IT Center-Projektbüro' url={url}/>
-      <ExpandableListItem title='Technische(r) Bauzeichner/-in' url={url}/>
-      <ExpandableListItem title='Studentische Hilfskraft' url={url}/>
+      <ExpandableListItem index='01' title='Mitarbeiter/in für das IT Center-Projektbüro' url={url}/>
+      <ExpandableListItem index='02'title='Technische(r) Bauzeichner/-in' url={url}/>
+      <ExpandableListItem index='03' title='Studentische Hilfskraft' url={url}/>
     </ol>
   );
 }

@@ -1,18 +1,25 @@
 import React, { useState } from 'react';
 import './ExpandableListItem.css';
 
-function ExpandableListItem({url, title}) {
+const ExpandableListItem = ({index, url, title}) => {
   const [hovered, setHovered] = useState(false);
 
   const onMouseEnter = () => setHovered(true);
   const onMouseLeave = () => setHovered(false);
 
+  const className = hovered ? 'more' : 'more hide';
+
   return (
     <li className='itemWrapper' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-      <h3>
-        {title}
-      </h3>
-      <a href={url} className={hovered ? 'more' : 'more hide'}>more</a>
+      <div className='titleWrapper'>
+        <span className='index'>
+          {index}
+        </span>
+        <h3 className='title'>
+          {title}
+        </h3>
+      </div>
+      <a href={url} className={className}>more</a>
     </li>
   );
 }
